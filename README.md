@@ -51,13 +51,15 @@ If optional parameters are not provided, **all available data** will be returned
 ## Example Connection
 
 ```text
-REDCap URL: https://redcap.example.org/api/
-Project API Token: ABC123XYZ
-Data Format: raw
-Header Format: label
-Export Checkbox Labels: true
-Export Survey Fields: false
-Export Data Access Groups: true
+REDCap_URL: https://redcap.example.org/api/
+API_Token: ABC123XYZ
+rawOrlabel (Data Format): raw
+rawOrlabel_Headers (Header Format): label
+exportCheckboxLabel: true
+exportSurveyFields: false
+exportDataAccessGroups: true
 Fields: age,gender,visit_date
 Forms: demographics,follow_up
 Events: baseline_arm_1
+
+()
