@@ -9,7 +9,6 @@ This repository contains a **custom Power BI data connector** that enables integ
 
 This connector uses the REDCap API to securely retrieve project data directly into Power BI for analysis and visualisation.
 
----
 
 ## Features
 
@@ -19,7 +18,6 @@ This connector uses the REDCap API to securely retrieve project data directly in
 - Optional filtering by **fields**, **forms**, and **events**
 - Works with **Power BI Desktop** and **Power BI Service** (with gateway)
 
----
 
 ## Required Parameters
 
@@ -35,7 +33,6 @@ When connecting Power BI to REDCap, you must provide the following parameters:
 | **Export Survey Fields** | Include survey-related fields | `true` or `false` |
 | **Export Data Access Groups** | Include Data Access Group information | `true` or `false` |
 
----
 
 ## Optional Parameters
 
