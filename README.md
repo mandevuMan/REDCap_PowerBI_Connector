@@ -62,4 +62,4 @@ Fields: age,gender,visit_date
 Forms: demographics,follow_up
 Events: baseline_arm_1
 ```
-(Power BI Connector/redcapInput.JPG)
+![alt text](https://github.com/mandevuMan/REDCap_PowerBI_Connector/edit/master/Power%20BI%20Connector/redcapInput.JPG?raw=true)
