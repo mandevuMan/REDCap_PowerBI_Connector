@@ -46,8 +46,6 @@ You may optionally restrict the export using the following parameters:
 
 If optional parameters are not provided, **all available data** will be returned.
 
----
-
 ## Example Connection
 
 ```text
@@ -64,6 +62,8 @@ Events: baseline_arm_1
 ```
 ![alt text](https://github.com/mandevuMan/REDCap_PowerBI_Connector/blob/master/Power%20BI%20Connector/redcapInput.JPG?raw=true)
 
+---
+
 ## Installing and Enabling the Custom Connector
 
 ### Step 1: Copy the Connector File
@@ -71,8 +71,9 @@ Events: baseline_arm_1
 2.  Copy the file to the following directory on your machine:
     
 **Windows**
-
+```text
 Documents\\Microsoft Power BI Desktop\\Custom Connectors
+```
 If the folder does not exist, create it manually.
 
 ### Step 2: Enable Custom Connectors in Power BI Desktop
