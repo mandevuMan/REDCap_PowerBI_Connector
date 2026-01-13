@@ -61,5 +61,5 @@ exportDataAccessGroups: true
 Fields: age,gender,visit_date
 Forms: demographics,follow_up
 Events: baseline_arm_1
-
-()
+```
+(Power BI Connector/redcapInput.JPG)
