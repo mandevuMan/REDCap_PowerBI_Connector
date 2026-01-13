@@ -62,7 +62,7 @@ Events: baseline_arm_1
 ```
 ![alt text](https://github.com/mandevuMan/REDCap_PowerBI_Connector/blob/master/Power%20BI%20Connector/redcapInput.JPG?raw=true)
 
----
+--
 
 ## Installing and Enabling the Custom Connector
 
