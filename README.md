@@ -72,7 +72,7 @@ Events: baseline_arm_1
     
 **Windows**
 ```text
-Documents\\Microsoft Power BI Desktop\\Custom Connectors
+[Documents]\Microsoft Power BI Desktop\Custom Connectors
 ```
 If the folder does not exist, create it manually.
 
@@ -88,6 +88,6 @@ If the folder does not exist, create it manually.
     
 ### Step 3: Connect to REDCap
 1.  In Power BI Desktop, select **Get Data**
-2.  Search for the **REDCap** connector 
+2.  Search for the **REDCap_Connector (Beta)(Custom)** connector 
 3.  Enter the required parameters    
 4.  Authenticate when prompted (API token is passed as a parameter)
