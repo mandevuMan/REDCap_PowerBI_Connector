@@ -63,3 +63,30 @@ Forms: demographics,follow_up
 Events: baseline_arm_1
 ```
 ![alt text](https://github.com/mandevuMan/REDCap_PowerBI_Connector/blob/master/Power%20BI%20Connector/redcapInput.JPG?raw=true)
+
+## Installing and Enabling the Custom Connector
+
+### Step 1: Copy the Connector File
+1.  Build or download the .mez file for the connector.  
+2.  Copy the file to the following directory on your machine:
+    
+**Windows**
+
+Documents\\Microsoft Power BI Desktop\\Custom Connectors
+If the folder does not exist, create it manually.
+
+### Step 2: Enable Custom Connectors in Power BI Desktop
+
+1.  Open **Power BI Desktop**  
+2.  Go to **File → Options and settings → Options**
+3.  Select **Security**    
+4.  Under **Data Extensions**, choose one of the following:
+    *   **Allow any extension to load (not recommended)**
+    *   **Allow only extensions with a valid certificate** (recommended for production)       
+5.  Restart Power BI Desktop
+    
+### Step 3: Connect to REDCap
+1.  In Power BI Desktop, select **Get Data**
+2.  Search for the **REDCap** connector 
+3.  Enter the required parameters    
+4.  Authenticate when prompted (API token is passed as a parameter)
