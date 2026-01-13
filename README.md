@@ -91,3 +91,7 @@ If the folder does not exist, create it manually.
 2.  Search for the **REDCap_Connector (Beta)(Custom)** connector 
 3.  Enter the required parameters    
 4.  Authenticate when prompted (API token is passed as a parameter)
+
+### Microsoft Links
+- [How to load custom connectors in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-connector-extensibility)
+- [How to enable and use custom connectors in Power BI service (online)](https://learn.microsoft.com/en-us/power-bi/connect-data/service-gateway-custom-connectors)
